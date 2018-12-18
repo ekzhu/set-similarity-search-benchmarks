@@ -8,6 +8,7 @@ Benchmark data sets for set similarity search algorithms.
 | [WDC Web Table 2015, English Relational-Only](https://storage.googleapis.com/set-similarity-search/wdc_webtables_2015_english_relational.inp.gz) | 163,510,917 | 184,644,583 | 4.32 GB | [1,2] |
 
 All data sets follow the same format:
+* Compressed using gzip.
 * First line is `<number of sets> <number of tokens>`.
 * All other lines are `<set size>\t<1>,<2>,<3>,...`, where `\t` is a tab separator, `<1>` and so on are tokens.
 * All tokens are integers, transformed from the original strings using a global ascending frequency order.
