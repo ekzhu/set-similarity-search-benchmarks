@@ -5,7 +5,7 @@ Benchmark data sets for set similarity search algorithms.
 | Data set | Number of sets | Number of tokens | File size | Papers |
 |----------|----------------|------------------|-----------|--------|
 | [Canada-US-UK Open Data](https://storage.googleapis.com/set-similarity-search/canada_us_uk_opendata.inp.gz) | 745,414 | 562,320,456 | 2.52 GB | [1] |
-| [WDC Web Table 2015, English Relational-Only](https://storage.googleapis.com/set-similarity-search/wdc_webtables_2015_english_relational.inp.gz) | 163,510,917 | 184,644,583 | 4.32 GB | [1] |
+| [WDC Web Table 2015, English Relational-Only](https://storage.googleapis.com/set-similarity-search/wdc_webtables_2015_english_relational.inp.gz) | 163,510,917 | 184,644,583 | 4.32 GB | [1,2] |
 
 All data sets follow the same format:
 * First line is `<number of sets> <number of tokens>`.
