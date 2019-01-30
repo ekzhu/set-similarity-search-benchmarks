@@ -20,7 +20,7 @@ Benchmark data sets for set similarity search algorithms.
 
 All data sets follow the same format:
 * Compressed using gzip.
-* First line of the main file is `<number of sets> <number of tokens>`.
+* First line of the main file is `<number of sets> <number of tokens>` and optionally a third number `<sum of all set sizes>`
 * All other lines are `<set size>\t<1>,<2>,<3>,...`, where `\t` is a tab separator, `<1>` and so on are tokens.
 * All tokens are integers, transformed from the original strings using a global ascending frequency order.
 
